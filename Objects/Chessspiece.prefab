@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2583717765162043845
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8881068972318712340}
+  - component: {fileID: 5963141213066553706}
+  - component: {fileID: 3957548252857448516}
+  m_Layer: 0
+  m_Name: Chessspiece
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8881068972318712340
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2583717765162043845}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.998, y: -1.623, z: -2}
+  m_LocalScale: {x: 3, y: 3, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &5963141213066553706
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2583717765162043845}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: -641104846605737351, guid: ee5fbd41fc0ef70448571ecce305959a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.2, y: 0.2}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &3957548252857448516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2583717765162043845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16c17eeb71a38ef49bb67c2701745720, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Chessman
+  controller: {fileID: 0}
+  movePlate: {fileID: 0}
+  black_queen: {fileID: -2628853326628446179, guid: 39eb26f9b9640884a89163a50befa19e, type: 3}
+  black_knight: {fileID: -334450713805299198, guid: 2346167d978c0bc40a692ad400c342c7, type: 3}
+  black_bishop: {fileID: -6414592721767173361, guid: 546e004b612d9c44280e4fb88256a308, type: 3}
+  black_king: {fileID: -641104846605737351, guid: ee5fbd41fc0ef70448571ecce305959a, type: 3}
+  black_rook: {fileID: -7587791273309554880, guid: c85901da2f627ff43a2e2afb95601a1b, type: 3}
+  black_pawn: {fileID: -4341603147912474925, guid: 82e51f860a6409f4cb32026890f1692b, type: 3}
+  white_queen: {fileID: 7270707491364550308, guid: 21c617a6ae1b8cf4aa643d6aca70aaf5, type: 3}
+  white_knight: {fileID: 8769669200613306614, guid: 526538e04853d4e4ab90f7d73a6f1365, type: 3}
+  white_bishop: {fileID: 7560534232159598683, guid: 34a4fbf430f8cde4385af72aa03e5df2, type: 3}
+  white_king: {fileID: -3792998861040722889, guid: 5b018d312c52a534ebcf55cf48d6f599, type: 3}
+  white_rook: {fileID: -8948728166497563328, guid: 56dce183b1715554aa0e6309b7ef5aaa, type: 3}
+  white_pawn: {fileID: 5580225292014371162, guid: 1cc87cdd231c6f045bc948e5d32e2f64, type: 3}
